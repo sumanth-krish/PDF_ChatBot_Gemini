@@ -1,0 +1,13 @@
+prefix=S:/Software/ML_Krish/Gemini-RAG-Application-main/app_venv/Library
+exec_prefix=S:/Software/ML_Krish/Gemini-RAG-Application-main/app_venv/Library
+libdir=S:/Software/ML_Krish/Gemini-RAG-Application-main/app_venv/Library/lib
+sharedlibdir=S:/Software/ML_Krish/Gemini-RAG-Application-main/app_venv/Library/lib
+includedir=S:/Software/ML_Krish/Gemini-RAG-Application-main/app_venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
